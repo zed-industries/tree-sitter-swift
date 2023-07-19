@@ -12027,6 +12027,10 @@
             "named": true
           },
           {
+            "type": "let",
+            "named": false
+          },
+          {
             "type": "line_string_literal",
             "named": true
           },
@@ -12151,8 +12155,8 @@
             "named": true
           },
           {
-            "type": "value_binding_pattern",
-            "named": true
+            "type": "var",
+            "named": false
           },
           {
             "type": "where_clause",
@@ -12168,6 +12172,20 @@
           },
           {
             "type": "~",
+            "named": false
+          }
+        ]
+      },
+      "mutability": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
             "named": false
           }
         ]
@@ -12564,6 +12582,10 @@
             "named": true
           },
           {
+            "type": "let",
+            "named": false
+          },
+          {
             "type": "line_string_literal",
             "named": true
           },
@@ -12688,8 +12710,8 @@
             "named": true
           },
           {
-            "type": "value_binding_pattern",
-            "named": true
+            "type": "var",
+            "named": false
           },
           {
             "type": "where_clause",
@@ -12705,6 +12727,20 @@
           },
           {
             "type": "~",
+            "named": false
+          }
+        ]
+      },
+      "mutability": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
             "named": false
           }
         ]
@@ -17686,6 +17722,20 @@
           }
         ]
       },
+      "mutability": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
+            "named": false
+          }
+        ]
+      },
       "name": {
         "multiple": false,
         "required": false,
@@ -17931,10 +17981,6 @@
         },
         {
           "type": "user_type",
-          "named": true
-        },
-        {
-          "type": "value_binding_pattern",
           "named": true
         },
         {
@@ -18804,6 +18850,20 @@
           }
         ]
       },
+      "mutability": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
+            "named": false
+          }
+        ]
+      },
       "name": {
         "multiple": true,
         "required": true,
@@ -19203,10 +19263,6 @@
         },
         {
           "type": "type_constraints",
-          "named": true
-        },
-        {
-          "type": "value_binding_pattern",
           "named": true
         }
       ]
@@ -21177,6 +21233,10 @@
             "named": true
           },
           {
+            "type": "let",
+            "named": false
+          },
+          {
             "type": "line_string_literal",
             "named": true
           },
@@ -21301,8 +21361,8 @@
             "named": true
           },
           {
-            "type": "value_binding_pattern",
-            "named": true
+            "type": "var",
+            "named": false
           },
           {
             "type": "where_clause",
@@ -21318,6 +21378,20 @@
           },
           {
             "type": "~",
+            "named": false
+          }
+        ]
+      },
+      "mutability": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
             "named": false
           }
         ]
@@ -26085,26 +26159,6 @@
     }
   },
   {
-    "type": "value_binding_pattern",
-    "named": true,
-    "fields": {
-      "mutability": {
-        "multiple": false,
-        "required": true,
-        "types": [
-          {
-            "type": "let",
-            "named": false
-          },
-          {
-            "type": "var",
-            "named": false
-          }
-        ]
-      }
-    }
-  },
-  {
     "type": "visibility_modifier",
     "named": true,
     "fields": {}
@@ -26623,6 +26677,10 @@
             "named": true
           },
           {
+            "type": "let",
+            "named": false
+          },
+          {
             "type": "line_string_literal",
             "named": true
           },
@@ -26747,8 +26805,8 @@
             "named": true
           },
           {
-            "type": "value_binding_pattern",
-            "named": true
+            "type": "var",
+            "named": false
           },
           {
             "type": "where_clause",
@@ -26764,6 +26822,20 @@
           },
           {
             "type": "~",
+            "named": false
+          }
+        ]
+      },
+      "mutability": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "let",
+            "named": false
+          },
+          {
+            "type": "var",
             "named": false
           }
         ]

@@ -8699,7 +8699,7 @@
         }
       ]
     },
-    "value_binding_pattern": {
+    "_binding_pattern_kind": {
       "type": "FIELD",
       "name": "mutability",
       "content": {
@@ -8733,7 +8733,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "value_binding_pattern"
+          "name": "_binding_pattern_kind"
         }
       ]
     },
@@ -8942,7 +8942,7 @@
             },
             {
               "type": "SYMBOL",
-              "name": "value_binding_pattern"
+              "name": "_binding_pattern_kind"
             }
           ]
         },
