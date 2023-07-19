@@ -66,7 +66,7 @@
     (navigation_suffix (simple_identifier) @function.call)))
 ((navigation_expression
    (simple_identifier) @type) ; SomeType.method(): highlight SomeType as a type
-   (#match? @type "^[A-Z]"))
+   (,match? @type "^[A-Z]"))
 
 (directive) @function.macro
 (diagnostic) @function.macro
@@ -165,4 +165,3 @@
  "..<"
  "..."
 ] @operator
-
